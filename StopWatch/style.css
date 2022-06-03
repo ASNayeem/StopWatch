@@ -1,0 +1,33 @@
+body{
+    background-image: url(casey.jpg);
+    background-repeat: no-repeat, repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.timerBtn {
+    width: 80px;
+    height: 30px;
+    border: 3px solid;
+    border-radius: 12px;
+    background-color: rgb(84, 50, 6);
+    color: white;
+    cursor: pointer;
+    font-family: consolas, monospace;
+}
+#timeDisplay{
+    font-size: 75px;
+    color: rgb(129, 236, 23);
+    font-family: consolas, monospace;
+}
+#timeContainer{
+    margin-top: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    border: 3px solid;
+    border-radius: 25px;
+    background-color: #093b5e;
+
+}
